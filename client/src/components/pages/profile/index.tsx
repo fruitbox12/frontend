@@ -10,7 +10,7 @@ const ProfilePage: React.FC = () => {
           <div
             className="h-96 max-h-96 w-full rounded-lg relative"
             style={{
-              backgroundImage: `url('https://picsum.photos/720')`,
+              backgroundImage: `url('')`,
             }}
           >
             <div
@@ -18,22 +18,14 @@ const ProfilePage: React.FC = () => {
               style={{ bottom: '-15px' }}
             >
               <div className="w-44 h-44 rounded-full bg-gray-300 border-4 border-white">
-                <img
-                  className="w-full h-full rounded-full"
-                  src="https://picsum.photos/200"
-                  alt="dp"
-                />
+                
               </div>
-              <div className="absolute" style={{ bottom: 30, right: 30 }}>
-                <button className="focus:outline-none px-3 py-2 hover:bg-gray-50 font-semibold bg-white rounded-md">
-                  <i className="fas fa-camera mr-2"></i>Edit Cover Photo
-                </button>
-              </div>
+             
             </div>
           </div>
           <div className="max-w-5xl h-full mx-auto">
             <div className="flex flex-col space-y-2 mt-3 items-center justify-center pb-3 border-b-2">
-              <p className="text-4xl font-bold">Saiful Islam Shihab</p>
+              <p className="text-4xl font-bold"></p>
               <p className="text-sm text-gray-500">I am Software Engineer</p>
             </div>
             <div className="mt-1 flex items-center justify-between">
@@ -198,14 +190,14 @@ const ProfilePage: React.FC = () => {
             <div className="bg-white rounded-md shadow p-2 mt-4 px-3 text-sm">
               <div className="flex items-center justify-between pb-2 border-b">
                 <div>
-                  <p className="text-xl text-gray-700 font-bold">Posts</p>
+                  <p className="text-xl text-gray-700 font-bold">Nodes and Services</p>
                 </div>
                 <div className="flex items-center space-x-2">
                   <button className="px-3 py-1.5 bg-gray-200 hover:bg-gray-300 rounded-md font-semibold focus:outline-none">
                     <i className="fas fa-sliders-h mr-2"></i>Filters
                   </button>
                   <button className="px-3 py-1.5 bg-gray-200 hover:bg-gray-300 rounded-md font-semibold focus:outline-none">
-                    <i className="fas fa-cog mr-2"></i>Manage Posts
+                    <i className="fas fa-cog mr-2"></i>Manage nodes
                   </button>
                 </div>
               </div>

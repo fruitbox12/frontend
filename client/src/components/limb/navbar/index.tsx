@@ -10,12 +10,12 @@ const Navbar: React.FC = () => {
         <div className="flex items-center ml-2">
           <div className="h-10 text-primary">
             <Link to="/">
-              <i className="fab fa-facebook" style={{ fontSize: 40 }}></i>
+              <i className="fab fa-aws" style={{ fontSize: 40 }}></i>
             </Link>
           </div>
           <div className="h-10">
             <input
-              placeholder="Search Facebook"
+              placeholder="Anonymous Web Services"
               className="bg-gray-100 rounded-full h-full focus:outline-none ml-2 px-3 pr-4"
             />
           </div>

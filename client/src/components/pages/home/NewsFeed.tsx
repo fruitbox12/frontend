@@ -7,10 +7,17 @@ const NewsFeed: React.FC = () => {
   return (
     <div className="mt-6 w-full h-full pb-5">
       {/* Story Section */}
-      <div className="w-full h-50 flex items-center justify-center space-x-2 overflow-hidden cursor-pointer my-6">
-        <div
-          className="w-28 h-48 relative rounded-xl shadow "
-          style={{ backgroundImage: `url('https://picsum.photos/400')` }}
+
+      {/* Create Post       */}
+      <CreatePostBox />
+
+      
+      
+      <div className="w-full h-50 flex items-center justify-left space-x-2 overflow-hidden cursor-pointer my-6">
+
+      <div
+          className="w-48 h-48 relative rounded-xl shadow "
+          style={{ backgroundImage: `url('https://www.aquifysystems.com/wp-content/uploads/icn-cloudtech.png')` }}
         >
           <div
             className="w-full absolute flex justify-center"
@@ -21,16 +28,25 @@ const NewsFeed: React.FC = () => {
             </button>
           </div>
           <div className="bg-white z-30 absolute text-center bottom-0 p-2 pt-4 w-full h-auto rounded-b-lg ">
-            <p className="text-gray-500 text-sm font-semibold">Create Story</p>
+            <p className="text-gray-500 text-sm font-semibold">Provide Node</p>
           </div>
         </div>
-        <Story />
-        <Story />
-        <Story />
-        <Story />
+        <div
+          className="w-48 h-48 relative rounded-xl shadow "
+          style={{ backgroundImage: `url('')` }}
+        >
+          <div
+            className="w-full absolute flex justify-center"
+            style={{ bottom: '13%' }}
+          >
+            
+          </div>
+          <div className="bg-white z-30 absolute text-center bottom-0 p-2 pt-4 w-full h-auto rounded-b-lg ">
+            <p className="text-gray-500 text-sm font-semibold">Active Nodes</p>
+          </div>
+        </div>
+      
       </div>
-      {/* Create Post       */}
-      <CreatePostBox />
       {/* All posts */}
       <PostContainer />
     </div>
