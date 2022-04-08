@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
                   pathName === 'watch' ? 'text-primary' : 'text-gray-400'
                 }`}
               >
-                <i className="text-2xl fas fa-tv"></i>
+                <i className="text-2xl fas fa-window-restore"></i>
               </div>
             </div>
           </div>

@@ -4,10 +4,14 @@ import Navbar from '../limb/navbar';
 
 const WatchPageLayout: React.FC = (props) => {
   const { children } = props;
-  return (
+  return (<div>
     <div className="w-full h-full flex flex-col">
       <Navbar />
-      <MainContentContainer>{children}</MainContentContainer>
+
+      
+    </div>
+    <MainContentContainer>{children}</MainContentContainer>
+
     </div>
   );
 };

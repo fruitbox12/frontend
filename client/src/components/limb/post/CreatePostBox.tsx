@@ -15,7 +15,9 @@ const CreatePostBox: React.FC = () => {
             <i className="fas fa-chevron-up"></i>
           </div>
           <div>
-            <p className="font-semibold text-red-500">Lambda (Anonymous Function)</p>
+            <button><a href="/watch" rel="noreferrer"><p className="font-semibold text-red-500">Lambda (Anonymous Function)</p>
+
+  </a></button>
           </div>
         </button>
         <button className="flex-1 flex items-center h-8 focus:outline-none focus:bg-gray-200 justify-center space-x-2 hover:bg-gray-100 rounded-md">
