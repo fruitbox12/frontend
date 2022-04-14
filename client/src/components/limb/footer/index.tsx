@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 import { FaEnvelope, FaHome, FaTwitter } from "react-icons/fa";
-import { AiFillPhone, AiFillCaretLeft } from "react-icons/ai";
+import { AiFillPhone } from "react-icons/ai";
 import { GrFacebook } from "react-icons/gr";
 import { SiLinkedin } from "react-icons/si";
 import AOS from "aos";
@@ -38,7 +38,7 @@ const Footer = () => {
 												data-aos-offset="350"
 												className="col-lg-6 mb-5 mb-lg-0 text-center text-lg-left"
 											>
-												<h2 className="text-white">Subscribe for Newsletter</h2>
+												<h2 className="text-white"></h2>
 											</div>
 											<div className="col-lg-6 mb-5 mb-lg-0 text-center text-lg-right">
 												<form method="post">
@@ -51,7 +51,7 @@ const Footer = () => {
 														<input
 															type="email"
 															name="EMAIL"
-															placeholder="Your email address"
+															placeholder=" "
 														/>
 														<Link to="upperNavbar" smooth={true} duration={600}>
 															<input type="submit" value="Subscribe" />
@@ -90,230 +90,9 @@ const Footer = () => {
 								data-aos="fade-right"
 								data-aos-duration="1200"
 								data-aos-offset="120"
-								className="col-lg-2 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0 "
-							>
-								<div className="footer-TopBarInner">
-									<h4
-										data-aos="fade-up"
-										data-aos-duration="1200"
-										data-aos-offset="120"
-										className="footer-title"
-									>
-										Menu
-									</h4>
-									<div>
-										<ul className="menu">
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Home
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													About Us
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Service
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Blog
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Contact Us
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div
-								data-aos="fade-right"
-								data-aos-duration="1200"
-								data-aos-offset="120"
-								className="col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4"
-							>
-								<div className="footer-TopBarInner">
-									<h4
-										data-aos="fade-up"
-										data-aos-duration="1200"
-										data-aos-offset="120"
-										className="footer-title"
-									>
-										About Us
-									</h4>
-									<div className="menu-about">
-										<ul id="menu-about-menu" className="menu">
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													About Us
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Service
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Contact Us
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Pricing Plan
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Clients
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div
-								data-aos="fade-right"
-								data-aos-duration="1200"
-								data-aos-offset="120"
-								className="col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4"
-							>
-								<div className="footer-TopBarInner">
-									<h4
-										data-aos="fade-up"
-										data-aos-duration="1200"
-										data-aos-offset="120"
-										className="footer-title "
-									>
-										Useful links
-									</h4>
-									<div className="menu-link">
-										<ul id="menu-link-menu" className="menu">
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Our Team
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Pricing Plan
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													FAQ
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Clients
-												</a>
-											</li>
-											<li
-												data-aos="fade-up"
-												data-aos-duration="1200"
-												data-aos-offset="120"
-											>
-												<a href="upperNavbar">
-													<AiFillCaretLeft className="FooterListIcons" />
-													Contact Us
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div
-								data-aos="fade-right"
-								data-aos-duration="1200"
-								data-aos-offset="120"
 								className="col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4"
 							>
 								<div className="footer-TopBarInner">
-									<h4
-										data-aos="fade-up"
-										data-aos-duration="1200"
-										data-aos-offset="120"
-										className="footer-title "
-									>
-										Contact Us
-									</h4>
 									<div className="row">
 										<div className="col-sm-12">
 											<ul className="ContactAMPIconText">
@@ -328,7 +107,7 @@ const Footer = () => {
 															className="FooterAddressIcon FooterListIcons"
 														/>
 														&nbsp; &nbsp;
-														<span>Karachi, Pakistan</span>
+														<span>Raleigh, NC</span>
 													</a>
 												</li>
 												<li
@@ -339,7 +118,7 @@ const Footer = () => {
 													<a href="mailto:support@iqnonicthemes.com">
 														<FaEnvelope className="FooterAddressIcon FooterListIcons" />
 														&nbsp; &nbsp;
-														<span>support@iqnonicthemes.com</span>
+														<span>support@aws.eth</span>
 													</a>
 												</li>
 												<li
@@ -350,7 +129,7 @@ const Footer = () => {
 													<a href="tel:+0123456789">
 														<AiFillPhone className="FooterAddressIcon FooterListIcons" />
 														&nbsp; &nbsp;
-														<span>+0123456789</span>
+														<span></span>
 													</a>
 												</li>
 											</ul>
@@ -409,7 +188,7 @@ const Footer = () => {
 									className="col-lg-6 col-md-12 text-lg-right text-md-center text-center"
 								>
 									<span className="copyright">
-										Copyright 2020 Qloud All Rights Reserved.
+										Copyright 2022 Anonymous Web Services All Rights Reserved.
 									</span>
 								</div>
 							</div>

@@ -1,8 +1,5 @@
-import React from 'react';
-import RoadMapSVG from './RoadMapSVG';
 import CodeMirror from '@uiw/react-codemirror';
 import { python } from '@codemirror/lang-python';
-import { EditorView } from '@codemirror/view';
 
 const GamingPage = () => {
   
@@ -12,10 +9,9 @@ const GamingPage = () => {
   maxWidth="800px"
   extensions={[python()]}
   theme="light"
-  onChange={(value, viewUpdate) => {
+  onChange={(value) => {
     console.log('value:', value);
   }}
-  
 />;
 
 };
