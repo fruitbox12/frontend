@@ -4,13 +4,13 @@ import { FaEnvelope, FaHome, FaTwitter } from "react-icons/fa";
 import { AiFillPhone } from "react-icons/ai";
 import { GrFacebook } from "react-icons/gr";
 import { SiLinkedin } from "react-icons/si";
-import AOS from "aos";
+import * as AOS from 'aos';
+import "aos/dist/aos.css";
 
 // REACT SCROLL
 import { Link } from "react-scroll";
 
 // importing AOS for animations
-import "aos/dist/aos.css";
 
 const Footer = () => {
 	useEffect(() => {
