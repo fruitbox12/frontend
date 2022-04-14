@@ -1,8 +1,7 @@
-# facebook-clone
+#Anonymous Web Services Frontend
+React, Tailwind CSS, Node.js. GraphQL and TypeScript 🔥
 
-Building Facebook Clone using React, Tailwind CSS, Node.js. GraphQL and TypeScript 🔥
-
-<img src="https://repository-images.githubusercontent.com/295202619/a69feb00-ce17-11eb-99c0-88a325f87bf9" alt="screenshot"/>
+<img src="https://icons.iconarchive.com/icons/hopstarter/malware/256/Protect-icon.png" alt="screenshot"/>
 
 # Installation
 
