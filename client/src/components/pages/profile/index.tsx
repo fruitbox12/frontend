@@ -7,12 +7,7 @@ const ProfilePage: React.FC = () => {
     <div className="w-full h-full">
       <div className="w-full h-auto shadow bg-white rounded-md">
         <div className="max-w-6xl h-full mx-auto bg-white p-2">
-          <div
-            className="h-96 max-h-96 w-full rounded-lg relative"
-            style={{
-              backgroundImage: `url('')`,
-            }}
-          >
+
             <div
               className="absolute  w-full flex items-center justify-center"
               style={{ bottom: '-15px' }}
@@ -21,12 +16,10 @@ const ProfilePage: React.FC = () => {
                 
               </div>
              
-            </div>
           </div>
           <div className="max-w-5xl h-full mx-auto">
             <div className="flex flex-col space-y-2 mt-3 items-center justify-center pb-3 border-b-2">
               <p className="text-4xl font-bold"></p>
-              <p className="text-sm text-gray-500">I am Software Engineer</p>
             </div>
             <div className="mt-1 flex items-center justify-between">
               <div className="flex mb-2 items-center space-x-2">

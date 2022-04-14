@@ -3,7 +3,7 @@ import Post from '../limb/post';
 
 const PostContainer: React.FC = () => {
   return (
-    <div className="mt-4 w-full h-full">
+    <div className="mt-5 w-full h-full">
       <Post />
       <Post />
       <Post />

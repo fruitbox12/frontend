@@ -14,8 +14,12 @@ import ProfilePage from '../components/pages/profile';
 import RegisterPage from '../components/pages/signup';
 import WatchPage from '../components/pages/watch';
 import { PrivateRoute } from './PrivateRoute';
+export const Router = {
+  signIn: () => '/sign-in'
 
+}
 const Routers: React.FC = () => {
+
   return (
     <BrowserRouter>
       <Switch>
@@ -25,6 +29,12 @@ const Routers: React.FC = () => {
           component={HomePage}
           layout={HomePageLayout}
         />
+        <PrivateRoute
+          exact={true}
+          path="/sign-in"
+          component={LoginPage}          
+          layout={HomePageLayout}
+        />  
         <PrivateRoute
           exact={true}
           path="/watch"

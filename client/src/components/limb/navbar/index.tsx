@@ -106,15 +106,9 @@ const Navbar: React.FC = () => {
         <div className="h-10 w-auto flex items-center space-x-2 pr-2">
           <Link to="/profile">
             <button className="h-10 px-2 flex space-x-1 items-center justify-center focus:outline-none hover:bg-gray-300 rounded-full">
-              <div className="h-8">
-                <img
-                  src="https://picsum.photos/200"
-                  className="w-8 h-8 rounded-full"
-                  alt="dp"
-                />
-              </div>
+         
               <div className="h-8 flex items-center justify-content">
-                <p className="font-semibold text-sm">Saiful</p>
+                <p className="font-semibold text-sm"></p>
               </div>
             </button>
           </Link>
