@@ -5,25 +5,25 @@ const Navbar: React.FC = () => {
   const location = useLocation();
   const pathName = location?.pathname.split('/')[1];
   return (
-    <div className="w-full h-14 bg-white grid grid-cols-7 gap-4 fixed z-50">
+    <div className="w-full h-14 bg-gray-800 grid grid-cols-7 gap-4 fixed z-50">
       <div className="col-span-2 flex items-center">
         <div className="flex items-center ml-2">
           <div className="h-10 text-primary">
             <Link to="/">
-              <i className="fab fa-aws" style={{ fontSize: 40 }}></i>
+              <i className="fab fa-aws" style={{ fontSize: 30 }}></i>
             </Link>
           </div>
           <div className="h-10">
             <input
               placeholder="Anonymous Web Services"
-              className="bg-gray-100 rounded-full h-full focus:outline-none ml-2 px-3 pr-4"
+              className="bg-blue-100 rounded-full h-full focus:outline-none ml-2 px-3 pr-4"
             />
           </div>
         </div>
       </div>
       <div className="col-span-3 flex items-center justify-center space-x-2">
         <Link to="/">
-          <div className="w-24 h-12 rounded-lg flex items-center justify-center cursor-pointer hover:bg-gray-100">
+          <div className="w-24 h-12 rounded-lg flex items-center justify-center cursor-pointer hover:bg-grey-200">
             <div className="w-14 h-auto relative flex items-center justify-center">
               <div
                 className={`${
@@ -112,16 +112,16 @@ const Navbar: React.FC = () => {
               </div>
             </button>
           </Link>
-          <button className="w-10 h-10 bg-gray-200 focus:outline-none hover:bg-gray-300 rounded-full">
+          <button className="w-10 h-10 bg-blue-300 focus:outline-none hover:bg-blue-600 rounded-full">
             <i className="fas fa-plus"></i>
           </button>
-          <button className="w-10 h-10 bg-gray-200 focus:outline-none hover:bg-gray-300 rounded-full">
-            <i className="fab fa-facebook-messenger"></i>
+          <button className="w-10 h-10 bg-blue-300 focus:outline-none hover:bg-blue-600 rounded-full">
+            <p>Ohio</p>
           </button>
-          <button className="w-10 h-10 bg-gray-200 focus:outline-none hover:bg-gray-300 rounded-full">
+          <button className="w-10 h-10 bg-blue-300 focus:outline-none hover:bg-blue-600 rounded-full">
             <i className="fas fa-bell"></i>
           </button>
-          <button className="w-10 h-10 bg-gray-200 focus:outline-none hover:bg-gray-300 rounded-full">
+          <button className="w-10 h-10 bg-blue-300 focus:outline-none hover:bg-blue-600 rounded-full">
             <i className="fas fa-sort-down"></i>
           </button>
         </div>

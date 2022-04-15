@@ -23,31 +23,22 @@ const ProfilePage: React.FC = () => {
             </div>
             <div className="mt-1 flex items-center justify-between">
               <div className="flex mb-2 items-center space-x-2">
+       
                 <button className="py-3 px-2 hover:bg-gray-100 rounded-md font-semibold focus:outline-none">
-                  Posts
+                  Deployments
                 </button>
                 <button className="py-3 px-2 hover:bg-gray-100 rounded-md font-semibold focus:outline-none">
-                  About
-                </button>
+Staking                </button>
                 <button className="py-3 px-2 hover:bg-gray-100 rounded-md font-semibold focus:outline-none">
-                  Friends
-                </button>
-                <button className="py-3 px-2 hover:bg-gray-100 rounded-md font-semibold focus:outline-none">
-                  Photos
-                </button>
-                <button className="py-3 px-2 hover:bg-gray-100 rounded-md font-semibold focus:outline-none">
-                  Story Archrive
-                </button>
-                <button className="py-3 px-2 hover:bg-gray-100 rounded-md font-semibold focus:outline-none">
-                  Videos
-                </button>
+Marketplace Listings                </button>
+
               </div>
               <div className="flex items-center space-x-2">
                 <button className="px-3 py-1.5 rounded-md bg-primary hover:bg-blue-600 text-white font-semibold focus:outline-none">
-                  <i className="fas fa-plus-circle  mr-2"></i>Add to Story
+                  <i className="fas fa-plus-circle  mr-2"></i>Deploy New Service
                 </button>
                 <button className="px-3 py-1.5 bg-gray-200 hover:bg-gray-300 rounded-md font-semibold focus:outline-none">
-                  <i className="fas fa-pen mr-2"></i>Edit Profile
+                  <i className="fas fa-pen mr-2"></i>Edit Services
                 </button>
                 <button className="px-3 py-1.5 rounded-md bg-gray-100 hover:bg-gray-200 font-semibold focus:outline-none">
                   <i className="fas fa-ellipsis-h"></i>

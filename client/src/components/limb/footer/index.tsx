@@ -78,7 +78,7 @@ const Footer = () => {
 										data-aos-offset="120"
 										className="FooterTextContainer"
 									>
-										<h2>Cloudy</h2>
+										<h2>AWS</h2>
 										<p>
 											<br /> It is a long established fact that a reader will be
 											distracted by the readable content.
