@@ -54,7 +54,7 @@ Marketplace Listings                </button>
           <div className="col-span-2">
             <div className="bg-white rounded-lg p-3 text-sm text-gray-600 shadow">
               <div className="mb-2 ">
-                <p className="font-bold text-xl text-gray-800">Intro</p>
+                <p className="font-bold text-xl text-gray-800">Subscriber Profile</p>
               </div>
               <div className="flex flex-col space-y-3">
                 <div className="flex items-center space-x-2">
@@ -62,8 +62,8 @@ Marketplace Listings                </button>
                     <i className="fas fa-briefcase"></i>
                   </span>
                   <p>
-                    Full Stack Web Developer at{' '}
-                    <span className="font-semibold">Fiverr</span>
+                    DAO member at {' ForkedBlock '}
+                    <span className="font-semibold"></span>
                   </p>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -71,9 +71,8 @@ Marketplace Listings                </button>
                     <i className="fas fa-graduation-cap"></i>
                   </span>
                   <p>
-                    Studiend B.Sc in SWE at{' '}
+                    {' '}
                     <span className="font-semibold">
-                      Daffodil International University
                     </span>
                   </p>
                 </div>
@@ -82,7 +81,7 @@ Marketplace Listings                </button>
                     <i className="fas fa-home"></i>
                   </span>
                   <p>
-                    Lives in <span className="font-semibold">Dhaka</span>
+                    <span className="font-semibold"></span>
                   </p>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -90,9 +89,8 @@ Marketplace Listings                </button>
                     <i className="fas fa-map-marker-alt"></i>
                   </span>
                   <p>
-                    From{' '}
+                    {' '}
                     <span className="font-semibold">
-                      Chandpur, Chittagong, Bangladesh
                     </span>
                   </p>
                 </div>
@@ -101,7 +99,7 @@ Marketplace Listings                </button>
                     <i className="fas fa-heart"></i>
                   </span>
                   <p>
-                    <span className="font-semibold">Single</span>
+                    <span className="font-semibold"></span>
                   </p>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -113,7 +111,7 @@ Marketplace Listings                </button>
                     rel="noopener noreferrer"
                     href={'https://facebook.com/saifulshihab'}
                   >
-                    <p>saifulshihab</p>
+                    <p></p>
                   </a>
                 </div>
                 <div className="flex items-center space-x-2">

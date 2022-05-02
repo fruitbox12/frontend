@@ -15,12 +15,12 @@ const NewsFeed: React.FC = () => {
       <div className="w-full h-50 flex items-center justify-left space-x-2 overflow-hidden cursor-pointer my-6">
 
       <div
-          className="w-48 h-48 relative rounded-xl flex items-center justify-center" 
+          className="w-50 h-full relative rounded-xl flex items-center justify-center" 
         >
           <img src="https://www.aquifysystems.com/wp-content/uploads/icn-cloudtech.png" width="100" height="100"></img>
           <div
-            className="w-full absolute flex-basis justify-center"
-            style={{ bottom: '13%' }}
+            className="w-full absolute flex justify-center"
+            style={{ bottom: '15%' }}
           >
             <button className="focus:outline-none z-40 w-10 h-10 bg-primary rounded-full border-4 border-white">
               <i className="text-white fas fa-plus"></i>
@@ -30,18 +30,7 @@ const NewsFeed: React.FC = () => {
             <p className="text-gray-500 text-sm font-semibold">Provide Node</p>
           </div>
         </div>
-        <div
-          className="w-48 h-48 relative rounded-xl shadow "
-          style={{ backgroundImage: `url('')` }}
-        >
-          <div
-            className="w-full absolute flex justify-center"
-            style={{ bottom: '13%' }}
-          >
-            
-          </div>
-          
-        </div>
+
       
       </div>
       {/* All posts */}

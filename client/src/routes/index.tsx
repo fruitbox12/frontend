@@ -2,11 +2,15 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import GamingPageLayout from '../components/layouts/GamingPageLayout';
 import HomePageLayout from '../components/layouts/HomePageLayout';
+import GroupPageLayout from '../components/layouts/GroupPageLayout';
+
 import MarketplacePageLayout from '../components/layouts/MarketplacePage';
 import ProfilePageLayout from '../components/layouts/ProfilePageLayout';
 import WatchPageLayout from '../components/layouts/WatchPageLayout';
 import GamingPage from '../components/pages/gaming';
 import HomePage from '../components/pages/home';
+import GroupPage from '../components/pages/groups';
+
 import LoginPage from '../components/pages/login';
 import MarketplacePage from '../components/pages/marketplace';
 import PageNotFound from '../components/pages/notfound';
@@ -34,6 +38,12 @@ const Routers: React.FC = () => {
           path="/sign-in"
           component={LoginPage}          
           layout={HomePageLayout}
+        />  
+         <PrivateRoute
+          exact={true}
+          path="/groups"
+          component={GroupPage}          
+          layout={GroupPageLayout}
         />  
         <PrivateRoute
           exact={true}

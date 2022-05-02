@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import ConnectButton from '../../ConnectButton';
+import Layout from '../../layout';
+import { ChakraProvider } from "@chakra-ui/react";
 
 const Navbar: React.FC = () => {
   const location = useLocation();
   const pathName = location?.pathname.split('/')[1];
   return (
-    <div className="w-full h-14 bg-gray-800 grid grid-cols-7 gap-4 fixed z-50">
+    <div className="w-full h-16 bg-gray-800 grid grid-cols-7 gap-4 fixed z-50">
       <div className="col-span-2 flex items-center">
         <div className="flex items-center ml-2">
           <div className="h-10 text-primary">
@@ -32,7 +35,7 @@ const Navbar: React.FC = () => {
                     : 'text-gray-400'
                 }`}
               >
-                <i className="text-2xl fas fa-home"></i>
+                <i className="text-2xl fas fa-user-secret"></i>
               </div>
             </div>
           </div>
@@ -80,7 +83,7 @@ const Navbar: React.FC = () => {
                   pathName === 'groups' ? 'text-primary' : 'text-gray-400'
                 }`}
               >
-                <i className="text-2xl fas fa-users"></i>
+                <i className="text-2xl fas fa-cogs"></i>
               </div>
             </div>
           </div>
@@ -88,15 +91,13 @@ const Navbar: React.FC = () => {
         <Link to="/gaming">
           <div className="w-24 h-12 rounded-lg flex items-center justify-center cursor-pointer hover:bg-gray-100">
             <div className="w-14 h-auto relative flex items-center justify-center">
-              <div className="absolute bg-red-500 text-white text-xs font-bold px-1 rounded-lg top-0 right-0">
-                9+
-              </div>
+              
               <div
                 className={`${
                   pathName === 'gaming' ? 'text-primary' : 'text-gray-400'
                 }`}
               >
-                <i className="text-2xl fas fa-gamepad"></i>
+                <i className="text-2xl fas fa-server"></i>
               </div>
             </div>
           </div>
@@ -110,14 +111,20 @@ const Navbar: React.FC = () => {
               <div className="h-8 flex items-center justify-content">
                 <p className="font-semibold text-sm"></p>
               </div>
+              <p className="font-semibold text-sm"><ChakraProvider>
+        <Layout>
+      <ConnectButton handleOpenModal={open} />
+</Layout>
+    </ChakraProvider></p>
             </button>
           </Link>
           <button className="w-10 h-10 bg-blue-300 focus:outline-none hover:bg-blue-600 rounded-full">
             <i className="fas fa-plus"></i>
           </button>
-          <button className="w-10 h-10 bg-blue-300 focus:outline-none hover:bg-blue-600 rounded-full">
-            <p>Ohio</p>
-          </button>
+          <button className="w-14 h-12 bg-blue-300 rounded">
+          <div data-v-121f1b1c="" className="grid-icon__title bg-gray-400 rounded" > 
+          <p className="font-semibold text-sm"> Select Region </p>
+</div>          </button>
           <button className="w-10 h-10 bg-blue-300 focus:outline-none hover:bg-blue-600 rounded-full">
             <i className="fas fa-bell"></i>
           </button>
