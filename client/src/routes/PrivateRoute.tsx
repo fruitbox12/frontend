@@ -16,8 +16,9 @@ const PrivateRoute: React.FC<IProps> = ({
   const isAuthenticated = true;
 
   return (
-    <Route
-      render={(props) =>
+    <Route 
+   {...rest} 
+   component={(props: JSX.IntrinsicAttributes) =>
         isAuthenticated === null ? null : isAuthenticated === true ? (
           <Layout>
             <Component {...props} />
