@@ -17,20 +17,7 @@ const PrivateRoute: React.FC<IProps> = ({
 
   return (
     <Route
-      {...rest}
-      render={(props) =>
-        isAuthenticated === null ? null : isAuthenticated === true ? (
-          <Layout>
-            <Component {...props} />
-          </Layout>
-        ) : (
-          <Redirect
-            to={{
-              pathname: '/login',
-            }}
-          />
-        )
-      }
+   
     />
   );
 };
