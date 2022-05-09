@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import ConnectButton from '../../ConnectButton';
+import Layout from '../../layout';
 import { ChakraProvider } from "@chakra-ui/react";
 
 const Navbar: React.FC = () => {
@@ -111,7 +112,9 @@ const Navbar: React.FC = () => {
                 <p className="font-semibold text-sm"></p>
               </div>
               <p className="font-semibold text-sm"><ChakraProvider>
-     <ConnectButton handleOpenModal={open} />
+        <Layout>
+      <ConnectButton handleOpenModal={open} />
+</Layout>
     </ChakraProvider></p>
             </button>
           </Link>
